@@ -1,0 +1,50 @@
+
+
+html {
+    font-family: 'Silkscreen' , sans-serif;
+    background-color: #ffffff;
+}
+
+
+h1 {
+    font-size: 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #9e0313;
+    text-decoration: overline;
+}
+
+ul {
+   list-style-type: none;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: #65a67a;
+}
+
+a:hover {
+    color: #9e0313;
+}
+
+img{
+    width: 30%;
+    height: 100%;
+}
+
+p {
+  text-decoration: none;
+  text-align: left;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+article {
+    background-image: url('images/lobsterwave.jpg');
+    background-repeat: repeat;
+}
