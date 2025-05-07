@@ -2,7 +2,8 @@
 
 
 #wrapper {
-    width: 80%;
+    width: 90%;
+    height: 90%;
     margin: auto;
     position: relative;
 }
@@ -10,16 +11,19 @@
 
 html {
     font-family: 'Silkscreen' , sans-serif;
-    background-color: #ffffff;
+    background: url('images/deepsealobster.jpg') left repeat-y, url('images/deepsealobster.jpg') right repeat-y;
+    background-color: #ff0059;
+    overflow-x: hidden;
 }
 
 
 header {
-    width: 70%;
+    width: 100%;
     margin: auto;
     padding-top: 8%;
     padding-bottom: 8%;
     position: relative;
+    padding-left: 35%;
 }
 
 #container {
@@ -31,9 +35,9 @@ header {
 nav {
     width: 90%;
     margin: auto;
-    padding: 3%;
+    padding-left: 0%;
+    padding-right: 30%;
     position: relative;
-    background-color: #ffffff;
     overflow: hidden;
     top: 0;
     z-index: 1;
@@ -42,38 +46,32 @@ nav {
 
 ul li {
     display: inline;
-    background-color: #ffffff
 }
 
 
 footer {
     width: 70%;
     margin: auto;
-    padding: 3%;
-    background-color: rgb(255, 255, 255);
+    padding-left: 49.2%;
+    padding-right: 15%;
+    padding-top: 17.6%;
+    padding-bottom: 10%;
 }
 
 
-.columns {
-    float: left;
-}
-
-
-.col-1 {
-    width: 5%;
-}
-.col-2 {
-    width: 15%;
-}
-.col-3 {
-    width: 25%;
-}
-.col-4 {
-    width: 55%;
-}
-.col-5 {
-    width: 100%;
-}
+.columns {float:left;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 
 
@@ -86,7 +84,7 @@ h1 {
 
 h2 {
     font-size: 1.5em; 
-    color: #9e0313;
+    color: #000000;
     text-decoration: overline;
 }
 
@@ -97,24 +95,24 @@ ul {
 
 
 a:link {
-    color: red;
+    color: rgb(3, 0, 167);
 }
 
 
 a:visited {
-    color: #65a67a;
+    color: rgb(3, 0, 167);
 }
 
 
 a:hover {
-    color: #9e0313;
+    color: #00ffdd;
 }
 
 
 img{
     width: 30%;
     overflow: auto;
-    padding-left: 12.5%;
+    padding-left: 5%;
     padding-right: 12.5%;
     display: inline;
     position: relative;
@@ -124,17 +122,23 @@ img{
 
 p {
   text-decoration: none;
-  text-align: left;
   line-height: 100%;
   text-transform: uppercase;
-  color: #000000;
-  padding-right: 20%;
-  padding-left: 12.5%;
+
 }
 
+#p1 {
+    height: 200px;
+    float: left;
+    width: 45%;
+  }
+#p2 {
+    height: 400px;
+    float: right;
+    width: 45%;
+  }
 
-article {
-    background-image: url('images/lobsterwave.png');
-    background-repeat: repeat;
-    margin: auto;
-}
+.paras {
+    padding-left: 40%;
+    padding-top: 7%;
+  }
