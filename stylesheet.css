@@ -73,7 +73,7 @@ html {
 header {
     width: 100%;
     margin: auto;
-    padding-top: 1%;
+    padding-top: 10%;
     padding-bottom: 8%;
     position: relative;
     float: left;
@@ -112,7 +112,7 @@ footer {
     padding-left: 5%;
     padding-right: 16%;
     padding-top: 1%;
-    padding-bottom: 0%;
+    padding-bottom: 5%;
     float: left;
 }
 
@@ -171,6 +171,7 @@ img{
     overflow: auto;
     position: relative;
     z-index: -1;
+    padding-top: 0%;
 }
 
 
@@ -200,6 +201,7 @@ p {
     padding-bottom: 0%;
     float: left;
     vertical-align: top;
+    padding-top: 0%;
 }
 
 .paras {
