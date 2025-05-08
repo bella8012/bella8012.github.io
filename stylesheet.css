@@ -1,5 +1,55 @@
 * {margin: 0; padding: 0;}
 
+@media only screen and (max-width: 480px) {
+    .column {
+        width: 100%;
+        float: left;
+        margin: 0%; 
+    }
+
+    .img {
+        max-width: 100%;
+        margin: 0%;
+        height: auto;
+    }
+
+    background-size {
+        max-width: 20%;
+    }
+}
+
+@media only screen and (max-width: 979px) {
+    .column {
+        width: 100%;
+        float: left;
+        margin: 0%; 
+    }
+    .img {
+        max-width: 100%;
+        margin: 0%;
+        height: auto;
+    }
+    background-size {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .column {
+        width: 100%;
+        float: left;
+        margin: 0%;
+    }
+    .img {
+        max-width: 100%;
+        margin: 0%;
+        height: auto;
+    } 
+    background-size {
+        max-width: 20%;
+    }
+} 
+
 
 #wrapper {
     width: 90%;
@@ -10,8 +60,9 @@
 
 
 html {
-    font-family: 'Silkscreen' , sans-serif;
-    background: url('images/deepsealobster.jpg') left repeat-y, url('images/deepsealobster.jpg') right repeat-y;
+    font-family: 'Silkscreen' , sans-serif , 'rampart-one-regular';
+    background: url('images/deepsea.jpg');
+    background-repeat: no-repeat;
     background-color: #ff0059;
     overflow-x: hidden;
 }
@@ -20,10 +71,11 @@ html {
 header {
     width: 100%;
     margin: auto;
-    padding-top: 8%;
+    padding-top: 1%;
     padding-bottom: 8%;
     position: relative;
-    padding-left: 35%;
+    float: left;
+    display: inline;
 }
 
 #container {
@@ -33,10 +85,11 @@ header {
 }
 
 nav {
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding-left: 0%;
-    padding-right: 30%;
+    padding-right: 0%;
+    padding-top: 1%;
     position: relative;
     overflow: hidden;
     top: 0;
@@ -46,6 +99,7 @@ nav {
 
 ul li {
     display: inline;
+    float: right;
 }
 
 
@@ -78,13 +132,13 @@ footer {
 
 h1 {
     font-size: 1em;
-    color: #000000;
+    color: #ffffff;
 }
 
 
 h2 {
     font-size: 1.5em; 
-    color: #000000;
+    color: #ffffff;
     text-decoration: overline;
 }
 
@@ -95,17 +149,17 @@ ul {
 
 
 a:link {
-    color: rgb(3, 0, 167);
+    color: rgb(255, 255, 255);
 }
 
 
 a:visited {
-    color: rgb(3, 0, 167);
+    color: rgb(184, 209, 238);
 }
 
 
 a:hover {
-    color: #00ffdd;
+    color: #ff0059;
 }
 
 
@@ -124,6 +178,7 @@ p {
   text-decoration: none;
   line-height: 100%;
   text-transform: uppercase;
+  color: #ffffff
 
 }
 
@@ -139,6 +194,8 @@ p {
   }
 
 .paras {
-    padding-left: 40%;
+    padding-left: 5%;
     padding-top: 7%;
   }
+
+  
