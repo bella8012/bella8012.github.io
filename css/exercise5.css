@@ -1,5 +1,5 @@
 html {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .silkscreen-regular {
@@ -12,4 +12,26 @@ html {
     font-family: "Silkscreen", sans-serif;
     font-weight: 700;
     font-style: normal;
+  }
+
+  div { 
+    width: 100px; 
+    height: 100px; 
+    animation-name: example ; 
+    animation-duration: 2s; 
+  }
+
+  @keyframes example { 
+    from {text-align: left;} to {text-align: right;} 
+  }
+
+  div { 
+    width: 100px; 
+    height: 100px; 
+    transition: width 2s; 
+  }
+  
+  div:hover {
+    color: rgb(255, 0, 68);
+    width: 400px;
   }
