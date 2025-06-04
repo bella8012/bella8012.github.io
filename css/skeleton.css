@@ -159,9 +159,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #000000; }
 a:hover {
-  color: #0FA0CE; }
+  color: #ff0062; }
 
 
 /* Buttons
@@ -288,10 +288,7 @@ label > .label-body {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
-  list-style: circle inside; }
-ol {
-  list-style: decimal inside; }
+
 ol, ul {
   padding-left: 0;
   margin-top: 0; }
